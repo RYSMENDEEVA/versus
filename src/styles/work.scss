@@ -1,0 +1,23 @@
+.work{
+  padding: 49px 0 101px;
+  background: #222222;
+  &__title{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__row{
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  &__card{
+    width: calc(33.33333% - 13.33333px);
+    &-img{
+      width: 100%;
+    }
+  }
+}

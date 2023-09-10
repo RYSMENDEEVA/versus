@@ -1,0 +1,23 @@
+.build{
+  background: url("../images/build.png") center/cover no-repeat;
+  padding: 226px 0 140px;
+  text-align: center;
+  &__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #FFFFFF;
+  }
+  &__btn{
+    padding: 10px 26px;
+    border: 1px solid #00D6B4;
+    border-radius: 3px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #00D6B4;
+    margin-top: 40px;
+  }
+}
